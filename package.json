@@ -7,9 +7,10 @@
   "description": "",
   "author": "",
   "main": "dist/index.mjs",
+  "icon": "icon.png",
   "editorMain": "dist/index.editor.mjs",
   "engines": {
-    "cze": "^0.0.1"
+    "cze": "^1.0.0"
   },
   "scripts": {
     "build": "vite build",
@@ -23,16 +24,13 @@
   },
   "dependencies": {
     "@vueuse/core": "^11.2.0",
-    "vue": "^3.5.13",
-    "vue-router": "^4.4.5"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.9.2",
-    "@chenz/cze": "^0.0.2-beta.4",
-    "@chenz/plc": "^1.4.1",
-    "@chenz/plc-vue": "^1.6.0",
-    "@chenz/plc-vue-components": "^0.6.0",
-    "@iconify-json/carbon": "^1.2.4",
+    "@chenz/cze": "^1.0.0",
+    "@chenz/cze-editor": "1.0.0",
+    "@chenz/cze-engine": "1.0.1",
     "@types/node": "^22.9.0",
     "@unocss/eslint-config": "^0.64.1",
     "@unocss/eslint-plugin": "^0.64.1",
@@ -44,7 +42,6 @@
     "eslint-plugin-format": "^0.1.2",
     "jsdom": "^25.0.1",
     "lint-staged": "^15.2.10",
-    "naive-ui": "^2.40.1",
     "pnpm": "^9.13.2",
     "simple-git-hooks": "^2.11.1",
     "taze": "^0.18.0",

@@ -5,8 +5,8 @@ import Button from './Button'
 
 import 'uno.css'
 
-function activate(_context: IExtensionContext) {
-  widgets.registerWidget(Button)
+function activate(context: IExtensionContext) {
+  widgets.register(context, Button)
 }
 
 export default {
